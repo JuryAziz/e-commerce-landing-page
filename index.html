@@ -2,167 +2,208 @@
 
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Book Store" />
+    <meta name="author" content="Jury A. Alsubhi" />
+    <meta name="keywords" content="Books, Store, reading, bored, E-commerce" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Book Store" />
-  <meta name="author" content="Jury A. Alsubhi" />
-  <meta name="keywords" content="Books, Store, reading, bored, E-commerce" />
+    <link rel="stylesheet" href=".\src\styles\styles.css" />
+    <link rel="icon" type="image/x-icon" href=".\src\images\livre-logo.ico" />
+    <title>LIVRES - Book Store</title>
+  </head>
 
-  <link rel="stylesheet" href=".\src\styles\styles.css" />
-  <title>LIVRES - Book Store</title>
-</head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <nav class="navbar">
+        <a href="index.html"
+          ><img src=".\src\images\livre-logo.jpg" alt="LIVRE Logo" class="logo"
+        /></a>
 
-<body>
-  <!-- header -->
-  <header class="header">
-    <nav class="navbar">
-      <a href="index.html"><img src=".\src\images\livre-logo.jpg" alt="LIVRE Logo" class="logo" /></a>
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#shop">Books</a></li>
+          <li><a href="#">About US</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- /header  -->
 
-      <ul class="nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#shop">Books</a></li>
-        <li><a href="#">About US</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    </nav>
-  </header>
-  <!-- /header  -->
+    <main>
+      <hr />
 
-  <main>
-    <hr />
-    <!-- hero section -->
-    <section class="hero">
-      <h1>Keep the story going..</h1>
-      <p>
-        Don't let the story end just yet. Continue your journey with another
-        book and immerse yourself in the world of literature.
-      </p>
-      <a href="#" class="btn" role="button" >Shop now</a>
-      <img src=".\src\images\chamber-of-secrets-page-2.jpg" alt="Harry Potter and The Chamber Of Secrets look inside"
-        class="hero-img" />
-    </section>
-    <!-- /hero section -->
-    <hr />
-    <!-- product show case  -->
-    <section class="product-showcase">
-      <h2 id=shop tabindex="0">Popular Now</h2>
+      <!-- hero section -->
+      <section class="hero">
+        <h1>Keep the story going..</h1>
+        <p>
+          Don't let the story end just yet. Continue your journey with another
+          book and immerse yourself in the world of literature.
+        </p>
+        <a href="#" class="btn" role="button">Shop now</a>
+        <img
+          src=".\src\images\chamber-of-secrets-page-2.jpg"
+          alt="Harry Potter and The Chamber Of Secrets look inside"
+          class="hero-img"
+        />
+      </section>
+      <!-- /hero section -->
 
-      <div class="product-container">
-        <div class="product">
-          <img src="./src/images/harry-potter-and-the-sorcerers-stone.jpg" alt="Harry Potter and the Sorcerer's Stone Book Cover" />
-          <h3>Harry Potter and the Sorcerer's Stone</h3>
-          <p>
-            whisks readers into a world of wonder and enchantment as a young
-            boy, unaware of his magical heritage, embarks on a thrilling
-            adventure upon discovering his extraordinary wizarding abilities
-            and the secrets of Hogwarts School of Witchcraft and Wizardry.
-          </p>
+      <hr />
+
+      <!-- product show case  -->
+      <section class="product-showcase">
+        <h2 id="shop" tabindex="0">Popular Now</h2>
+
+        <div class="product-container">
+          <div class="product">
+            <img
+              src="./src/images/harry-potter-and-the-sorcerers-stone.jpg"
+              alt="Harry Potter and the Sorcerer's Stone Book Cover"
+            />
+            <h3>Harry Potter and the Sorcerer's Stone</h3>
+            <p>
+              whisks readers into a world of wonder and enchantment as a young
+              boy, unaware of his magical heritage, embarks on a thrilling
+              adventure upon discovering his extraordinary wizarding abilities
+              and the secrets of Hogwarts School of Witchcraft and Wizardry.
+            </p>
+          </div>
+
+          <div class="product">
+            <img
+              src="./src/images/harry-potter-and-the-chamber-of-secrets.jpg"
+              alt="Harry Potter and the Chamber of Secrets Book Cover"
+            />
+            <h3>Harry Potter and the Chamber of Secrets</h3>
+            <p>
+              Harry returns to Hogwarts for his second year and uncovers the
+              mystery of the Chamber of Secrets.
+            </p>
+          </div>
+
+          <div class="product">
+            <img
+              src="./src/images/harry-potter-and-the-prisoner-of-azkaban.jpg"
+              alt="Harry Potter and the Prisoner of Azkaban Book Cover"
+            />
+            <h3>Harry Potter and the Prisoner of Azkaban</h3>
+            <p>
+              Harry learns about his godfather Sirius Black and encounters the
+              dangerous Dementors at Hogwarts.
+            </p>
+          </div>
+
+          <div class="product">
+            <img
+              src="./src/images/harry-potter-and-the-philosophers-stone.jpg"
+              alt="Harry Potter and the Philosopher's Stone Book Cover"
+            />
+            <h3>Harry Potter and the Philosopher's Stone</h3>
+            <p>
+              takes readers on a magical journey as a young boy discovers his
+              extraordinary wizarding abilities and unravels the mysteries of
+              Hogwarts School of Witchcraft and Wizardry.
+            </p>
+          </div>
         </div>
+      </section>
+      <!-- /product show case  -->
 
-        <div class="product">
-          <img src="./src/images/harry-potter-and-the-chamber-of-secrets.jpg" alt="Harry Potter and the Chamber of Secrets Book Cover" />
-          <h3>Harry Potter and the Chamber of Secrets</h3>
-          <p>
-            Harry returns to Hogwarts for his second year and uncovers the
-            mystery of the Chamber of Secrets.
-          </p>
-        </div>
+      <hr />
 
-        <div class="product">
-          <img src="./src/images/harry-potter-and-the-prisoner-of-azkaban.jpg" alt="Harry Potter and the Prisoner of Azkaban Book Cover" />
-          <h3>Harry Potter and the Prisoner of Azkaban</h3>
-          <p>
-            Harry learns about his godfather Sirius Black and encounters the
-            dangerous Dementors at Hogwarts.
-          </p>
-        </div>
+      <!-- Customer reviews  -->
+      <section class="customer-reviews">
+        <h4 tabindex="0">Our Readers Reviews</h4>
+        <div class="reviews-container">
+          <div class="review">
+            <h5>R. Alharbi</h5>
+            <p>
+              'The Great Gatsby'! If you're a fan of this book, you should
+              definitely read 'The Sun Also Rises'
+            </p>
+          </div>
 
-        <div class="product">
-          <img src="./src/images/harry-potter-and-the-philosophers-stone.jpg" alt="Harry Potter and the Philosopher's Stone Book Cover" />
-          <h3>Harry Potter and the Philosopher's Stone</h3>
-          <p>
-            takes readers on a
-            magical journey as a young boy discovers his extraordinary
-            wizarding abilities and unravels the mysteries of Hogwarts School
-            of Witchcraft and Wizardry.
-          </p>
+          <div class="review">
+            <h5>S. Abdullah</h5>
+            <p>"Game of Thrones" is a gripping epic fantasy novel</p>
+          </div>
+
+          <div class="review">
+            <h5>Numair</h5>
+            <p>
+              I absolutely loved Harry Potter and the Sorcerer's Stone! It's a
+              must-read for anyone who enjoys magical adventures.
+            </p>
+          </div>
+
+          <div class="review">
+            <h5>Yara</h5>
+            <p>
+              To Kill a Mockingbird is a timeless classic that I couldn't put
+              down.
+            </p>
+          </div>
         </div>
+      </section>
+      <!-- /Customer reviews  -->
+
+      <hr />
+
+      <!-- newsletter subscription -->
+      <section class="newsletter-subscription">
+        <h3 tabindex="0">Unlock a world of literary delights</h3>
+        <p>Subscribe for exclusive book news, deals, and recommendations!</p>
+        <form action="/subscribe" method="post" aria-label="newsletter">
+          <label for="email">Your email </label>
+          <input
+            aria-label="email"
+            name="email"
+            id="email"
+            placeholder="Email@example.com"
+            required
+          />
+          <button aria-label="submit" name="subscribe">Subscribe</button>
+        </form>
+      </section>
+      <!-- /newsletter subscription -->
+
+      <hr />
+    </main>
+
+    <!-- footer  -->
+    <footer>
+      <div class="footer-links">
+        <h4 tabindex="0">Links</h4>
+        <ul>
+          <li><a href=".\index.html">Home</a></li>
+          <li><a href="#shop">Books</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
       </div>
-    </section>
-    <!-- /product show case  -->
-    <hr />
-    <!-- Customer reviews  -->
-    <section class="customer-reviews">
-      <h4>Our Readers Reviews</h4>
-      <div class="reviews-container">
-        <div class="review">
-          <h5>R. Alharbi</h5>
-          <p>
-            'The Great Gatsby'! If you're a fan of this book, you should
-            definitely read 'The Sun Also Rises'
-          </p>
-        </div>
 
-        <div class="review">
-          <h5>S. Abdullah</h5>
-          <p>"Game of Thrones" is a gripping epic fantasy novel</p>
-        </div>
-
-        <div class="review">
-          <h5>Numair</h5>
-          <p>
-            I absolutely loved Harry Potter and the Sorcerer's Stone! It's a
-            must-read for anyone who enjoys magical adventures.
-          </p>
-        </div>
-
-        <div class="review">
-          <h5>Yara</h5>
-          <p>
-            To Kill a Mockingbird is a timeless classic that I couldn't put
-            down.
-          </p>
-        </div>
+      <div class="contact-info">
+        <h4 tabindex="0">Stay in touch!</h4>
+        <ul>
+          <li>
+            <a href="#"
+              ><img src=".\src\images\twitter.png" alt="Twitter" class="icon"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src=".\src\images\instagram.png"
+                alt="Instagram"
+                class="icon"
+            /></a>
+          </li>
+        </ul>
       </div>
-    </section>
-    <!-- /Customer reviews  -->
-<hr>
-    <!-- newsletter subscription -->
-    <section class="newsletter-subscription">
-      <h3>Unlock a world of literary delights</h3>
-      <p>Subscribe for exclusive book news, deals, and recommendations!</p>
-      <form action="/subscribe" method="post" aria-label="newsletter">
-        <label for="email"> Email:</label>
-        <input aria-label="email" name="email" id="email" placeholder="Email@example.com" required />
-        <button aria-label="submit" name="subscribe">Subscribe</button>
-      </form>
-    </section>
-    <!-- /newsletter subscription -->
-    <hr>
-  </main>
-  <!-- footer  -->
-  <footer>
-    <div class="footer-links">
-      <ul>
-        <li><a href=".\index.html">Home</a></li>
-        <li><a href="#shop">Books</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    </div>
-    <div class="contact-info">
-      <p>Email: info@LIVRE.com</p>
-      <p>Phone: 123-456-7890</p>
-      <p>Address: 123 Book St, City, Country</p>
-    </div>
-    <a href="#"><img src=".\src\images\twitter.png" alt="Twitter" class="icon" /></a>
-    <a href="#"><img src=".\src\images\instagram.png" alt="Instagram" class="icon" /></a>
-    </div>
-  </footer>
-
-  <!-- /footer  -->
-</body>
-
+    </footer>
+    <!-- /footer  -->
+  </body>
 </html>
