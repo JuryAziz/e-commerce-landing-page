@@ -1,4 +1,5 @@
 body {
+  background-color: antiquewhite;
   margin: 0;
 }
 header {
@@ -7,7 +8,7 @@ header {
   top: 0;
   border-radius: 0 0 30px 30px;
   box-shadow: 10px 5px 20px rgba(128, 128, 128, 0.555);
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 .navbar {
   display: flex;
@@ -15,12 +16,12 @@ header {
   padding: 1rem;
   align-items: center;
 }
-ul{
+ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
 }
-li{
+li {
   margin: 1rem;
 }
 .profile-pic {
@@ -30,19 +31,43 @@ li{
   border-radius: 100%;
 }
 .logo {
-  object-fit:scale-down;
+  object-fit: scale-down;
   height: 5rem;
   width: 7rem;
 }
-img {
-  width: 30%;
+.hero {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-areas: "title pic";
+  grid-row-gap: 0;
+  justify-items: center;
+  align-items: start;
+  padding: 3rem;
+}
+
+.hero-title {
+  grid-area: title;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-left: 3rem;
 }
 .hero-img {
-  width: 100%;
+  grid-area: pic;
+  border-radius: 10px;
+  height: 30rem;
 }
+/* img {
+  width: 30%;
+} */
 .icon {
   width: 3%;
 }
 a {
   size: auto;
+}
+
+.shadow {
+  box-shadow: 10px 5px 20px rgba(128, 128, 128, 0.555);
 }
