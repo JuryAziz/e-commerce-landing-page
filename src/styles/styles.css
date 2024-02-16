@@ -2,39 +2,47 @@ body {
   background-color: antiquewhite;
   margin: 0;
 }
+
 header {
   background-color: antiquewhite;
   position: sticky;
   top: 0;
-  border-radius: 0 0 30px 30px;
-  box-shadow: 10px 5px 20px rgba(128, 128, 128, 0.555);
+  /* border-radius: 0 0 30px 30px; */
+  /* box-shadow: 20px 0px 20px rgba(128, 128, 128, 0.329); */
   margin-bottom: 5rem;
+  padding: 0 2rem;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
   align-items: center;
 }
+
 ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
 }
+
 li {
   margin: 1rem;
 }
+
 .profile-pic {
   object-fit: cover;
   height: 4rem;
   width: 4rem;
   border-radius: 100%;
 }
+
 .logo {
   object-fit: scale-down;
   height: 5rem;
   width: 7rem;
 }
+
 .hero {
   display: grid;
   grid-template-columns: 30% 70%;
@@ -53,21 +61,49 @@ li {
   align-items: start;
   padding-left: 3rem;
 }
+h1{
+  font-size: 3rem;
+}
+h2{ font-size: 2.5rem; 
+}
 .hero-img {
   grid-area: pic;
   border-radius: 10px;
   height: 30rem;
 }
-/* img {
-  width: 30%;
-} */
+
+.product-showcase {
+  padding: 2rem 5.5rem;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 11rem;
+  padding: 2rem;
+  margin: 0.5rem;
+}
+
+.book {
+  width: 10rem;
+  height: 15rem;
+  border-radius: 5px;
+}
+
 .icon {
   width: 3%;
 }
+
 a {
   size: auto;
 }
 
 .shadow {
-  box-shadow: 10px 5px 20px rgba(128, 128, 128, 0.555);
+  box-shadow: 25px 25px 15px rgba(128, 128, 128, 0.568);
 }
