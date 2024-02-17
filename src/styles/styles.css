@@ -74,6 +74,11 @@ h2 {
   grid-area: pic;
   border-radius: 10px;
   height: 30rem;
+  animation-name: page;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  z-index:-1;
 }
 
 .product-showcase {
@@ -162,9 +167,9 @@ footer {
   padding: 0;
 }
 
-.contact-info img{
-   width: 35px;
-} 
+.contact-info img {
+  width: 35px;
+}
 
 a {
   size: auto;
@@ -172,4 +177,20 @@ a {
 
 .shadow {
   box-shadow: 2px 1px 5px #fff, -15px 15px 15px rgba(112, 112, 110, 255);
+}
+
+@keyframes page {
+  0% {
+    opacity: 1;
+  }
+  25%{
+    opacity: 0;
+  }
+  50%{
+    content: url("../images/chamber-of-secrets-page-2.jpg");
+    opacity: 1;
+  }
+  75%{
+    opacity: 0;
+  }
 }
