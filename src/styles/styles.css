@@ -10,10 +10,9 @@ header {
   background-color: #fbf3e4;
   position: sticky;
   top: 0;
-  border-radius: 0 0 30px 30px;
-  box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.329);
-  margin-bottom: 5rem;
-  padding: 0 2rem;
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 1rem;
+  padding: 0 4rem;
   z-index: 10;
 }
 
@@ -84,7 +83,7 @@ h2 {
 }
 
 .product-showcase {
-  padding: 5.5rem;
+  padding: 0rem 5.5rem;
 }
 
 .product-container {
@@ -115,7 +114,7 @@ h2 {
 .customer-reviews {
   display: flex;
   flex-direction: column;
-  padding: 0 5.5rem;
+  padding: 2rem 5.5rem;
 }
 
 .reviews-container {
@@ -124,9 +123,12 @@ h2 {
 }
 
 .review {
-  border-radius: 20px;
+  border-radius: 7px;
   width: 20%;
   padding: 1rem;
+  background-color: #282a36;
+  color:#fcf9f5;
+
 }
 
 .newsletter-subscription {
@@ -172,10 +174,10 @@ button {
   width: 10rem;
   height: 3rem;
   border: none;
-  transition: transform 0.2s ease;
+  transition: transform 0.5s ease;
 }
 button:hover {
-  transform: scale(1.05);
+  transform: scale(1.07);
 }
 
 footer {
@@ -193,6 +195,10 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+ 
+}
+.footer-links a{
+   color: #fbf3e4;
 }
 .footer-links ul {
   flex-direction: column;
@@ -218,6 +224,11 @@ footer {
 
 a {
   size: auto;
+  text-decoration: none;
+  color:#282a36
+}
+a:hover{
+  color:#ec8f87;
 }
 
 .shadow {
