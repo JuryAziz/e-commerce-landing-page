@@ -127,8 +127,7 @@ h2 {
   width: 20%;
   padding: 1rem;
   background-color: #282a36;
-  color:#fcf9f5;
-
+  color: #fcf9f5;
 }
 
 .newsletter-subscription {
@@ -142,10 +141,10 @@ h2 {
   padding: 4rem;
   font-size: 1.3rem;
 }
-.newsletter-subscription h3{
+.newsletter-subscription h3 {
   margin: 0.1rem;
 }
-.newsletter-subscription p{
+.newsletter-subscription p {
   margin: 0 0 2rem 0;
 }
 form {
@@ -195,10 +194,9 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
- 
 }
-.footer-links a{
-   color: #fbf3e4;
+.footer-links a {
+  color: #fbf3e4;
 }
 .footer-links ul {
   flex-direction: column;
@@ -225,10 +223,10 @@ footer {
 a {
   size: auto;
   text-decoration: none;
-  color:#282a36
+  color: #282a36;
 }
-a:hover{
-  color:#ec8f87;
+a:hover {
+  color: #ec8f87;
 }
 
 .shadow {
@@ -248,5 +246,31 @@ a:hover{
   }
   75% {
     opacity: 0;
+  }
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 1000px)  {
+  .hero {
+    grid-template-columns: auto;
+    grid-template-areas:
+      "title"
+      "pic";
+    grid-row-gap: 2rem;
+  }
+  .hero-title{
+    width: 80%;
+  }
+  .hero-img{
+    width: 80%;
+    height: auto;
+  }
+  article {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  div {
+    margin: 1rem;
   }
 }
