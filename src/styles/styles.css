@@ -1,7 +1,9 @@
+* {
+  font-family: Arima, sans-serif;
+}
 body {
   background-color: #fbf3e4;
   margin: 0;
-  font-family: Arima, sans-serif;
 }
 
 header {
@@ -104,11 +106,10 @@ h2 {
   height: 15rem;
   border-radius: 5px;
   transition: transform 0.5s ease;
-
 }
 
 .book:hover {
-  transform: scale(1.5);  
+  transform: scale(1.5);
 }
 
 .customer-reviews {
@@ -129,14 +130,52 @@ h2 {
 }
 
 .newsletter-subscription {
-  background-color: #fff;
+  background-color: #ffc7c294;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  border-radius: 30px;
-  margin: 0 5rem;
-  padding: 2rem;
+  border-radius: 10px;
+  margin: 1.5rem 5rem;
+  padding: 4rem;
+  font-size: 1.3rem;
+}
+.newsletter-subscription h3{
+  margin: 0.1rem;
+}
+.newsletter-subscription p{
+  margin: 0 0 2rem 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.1rem;
+}
+input {
+  background-color: #fffcf6;
+  border: none;
+  width: 20rem;
+  height: 3rem;
+  text-align: center;
+  border-radius: 10px;
+  margin: 1rem;
+  font-size: 1rem;
+}
+button {
+  background-color: #282a36;
+  color: #fffcf6;
+  font-weight: 500;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  transition: transform 0.2s ease;
+}
+button:hover {
+  transform: scale(1.05);
 }
 
 footer {
@@ -189,14 +228,14 @@ a {
   0% {
     opacity: 1;
   }
-  25%{
+  25% {
     opacity: 0;
   }
-  50%{
+  50% {
     content: url("../images/chamber-of-secrets-page-2.jpg");
     opacity: 1;
   }
-  75%{
+  75% {
     opacity: 0;
   }
 }
