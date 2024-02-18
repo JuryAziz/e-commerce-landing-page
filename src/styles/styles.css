@@ -5,7 +5,7 @@ body {
   background-color: #fbf3e4;
   margin: 0;
 }
-
+/* header */
 header {
   background-color: #fbf3e4;
   position: sticky;
@@ -14,6 +14,7 @@ header {
   margin-bottom: 1rem;
   padding: 0 4rem;
   z-index: 10;
+  font-size: 1.2rem;
 }
 
 .navbar {
@@ -45,7 +46,8 @@ li {
   height: 5rem;
   width: 7rem;
 }
-
+ /* header end */
+ /* hero */
 .hero {
   display: grid;
   grid-template-columns: 30% 70%;
@@ -81,7 +83,8 @@ h2 {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
-
+/* hero end */
+/* products */
 .product-showcase {
   padding: 0rem 5.5rem;
 }
@@ -110,7 +113,8 @@ h2 {
 .book:hover {
   transform: scale(1.5);
 }
-
+/* products end */
+/* reviews */
 .customer-reviews {
   display: flex;
   flex-direction: column;
@@ -129,7 +133,8 @@ h2 {
   background-color: #282a36;
   color: #fcf9f5;
 }
-
+/* reviews end */
+/* newsletter */
 .newsletter-subscription {
   background-color: #ffc7c294;
   display: flex;
@@ -164,21 +169,8 @@ input {
   margin: 1rem;
   font-size: 1rem;
 }
-button {
-  background-color: #282a36;
-  color: #fffcf6;
-  font-weight: 500;
-  font-size: 1.1rem;
-  border-radius: 10px;
-  width: 10rem;
-  height: 3rem;
-  border: none;
-  transition: transform 0.5s ease;
-}
-button:hover {
-  transform: scale(1.07);
-}
-
+/* newsletter end */
+/* footer */
 footer {
   display: flex;
   justify-content: space-around;
@@ -189,6 +181,7 @@ footer {
   padding: 1rem;
   background-color: #5f7367c0;
   color: #fbf3e4;
+  font-size: 1.3rem;
 }
 .footer-links {
   display: flex;
@@ -203,6 +196,7 @@ footer {
   align-items: center;
   justify-content: center;
   padding: 0;
+  font-size: 1.1rem;
 }
 
 .contact-info {
@@ -219,7 +213,22 @@ footer {
 .contact-info img {
   width: 35px;
 }
+/* footer end */
 
+button {
+  background-color: #282a36;
+  color: #fffcf6;
+  font-weight: 500;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  transition: transform 0.5s ease;
+}
+button:hover {
+  transform: scale(1.07);
+}
 a {
   size: auto;
   text-decoration: none;
@@ -232,20 +241,20 @@ a:hover {
 .shadow {
   box-shadow: 2px 1px 5px #fff, -15px 15px 15px rgba(112, 112, 110, 255);
 }
-
+/* Animation */
 @keyframes page {
   0% {
     opacity: 1;
   }
   25% {
-    opacity: 0;
+    opacity: 0.2;
   }
   50% {
     content: url("../images/chamber-of-secrets-page-2.jpg");
     opacity: 1;
   }
   75% {
-    opacity: 0;
+    opacity: 0.2;
   }
 }
 
@@ -272,5 +281,24 @@ a:hover {
   }
   div {
     margin: 1rem;
+  }
+  .review{
+    width: 100%;
+  }
+  .product{
+    width: 80%;
+    justify-content: center;
+  }
+  .navigator{
+    display: none;
+  }
+  h1,h2{
+    font-size:2.5rem;
+  }
+  input{
+    width: 100%;
+  }
+  .newsletter-subscription {
+    text-align: center;
   }
 }
