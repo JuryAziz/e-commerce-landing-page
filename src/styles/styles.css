@@ -26,9 +26,6 @@ a {
   text-decoration: none;
   color: #282a36;
 }
-a:hover {
-  color: #ec8f87;
-}
 
 .shadow {
   box-shadow: 2px 1px 5px #fff, -15px 15px 15px rgba(112, 112, 110, 255);
@@ -247,6 +244,10 @@ footer {
   width: 35px;
 }
 /* footer end */
+
+a:hover {
+  color: #ec8f87;
+}
 
 /* Animation */
 @keyframes page {
