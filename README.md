@@ -1,4 +1,6 @@
-# Assignment: E-commerce Landing Page - HTML/CSS/SASS/Animation
+# https://deluxe-pie-eea0bb.netlify.app
+
+# Assignment: E-commerce Landing Page - HTML/CSS
 
 
 ## Sub-Assignment: Develop an Ecommerce Landing Page (HTML & Web Accessibility)
